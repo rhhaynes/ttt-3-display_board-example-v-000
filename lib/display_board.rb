@@ -10,3 +10,5 @@ def display_board
     end
   end
 end
+
+display_board
