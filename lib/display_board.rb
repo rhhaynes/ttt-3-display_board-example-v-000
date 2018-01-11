@@ -2,7 +2,7 @@
 def display_board
   row = "   |   |   "
   sep = "-----------"
-  for i 1..5
+  for i in 1..5
     if i.even?
       puts sep
     else
