@@ -3,12 +3,10 @@ def display_board
   row = "   |   |   "
   sep = "-----------"
   for i in 1..5
-    if i.even?
-      puts sep
-    else
+    if i.odd?
       puts row
+    else
+      puts sep
     end
   end
 end
-
-display_board
